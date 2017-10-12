@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20170920175615) do
     t.string "source_url"
     t.string "publisher"
     t.text "instructions"
-    t.text "ingredients"
+    t.text "ingredientList"
   end
 
   create_table "user_ingredients", force: :cascade do |t|

@@ -1,4 +1,4 @@
 class UserIngredient < ApplicationRecord
   belongs_to :user
-  belongs_to :igredient
+  belongs_to :ingredient
 end
